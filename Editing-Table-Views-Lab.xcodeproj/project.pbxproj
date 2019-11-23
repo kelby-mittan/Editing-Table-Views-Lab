@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02284AE42389E4560000D04D /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02284AE32389E4560000D04D /* AddItemViewController.swift */; };
+		02284AE62389F34D0000D04D /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02284AE52389F34D0000D04D /* GroceryItem.swift */; };
 		024F9FD8238783CA002AF4BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F9FD7238783CA002AF4BC /* AppDelegate.swift */; };
 		024F9FDA238783CA002AF4BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F9FD9238783CA002AF4BC /* SceneDelegate.swift */; };
 		024F9FDC238783CA002AF4BC /* GroceryListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F9FDB238783CA002AF4BC /* GroceryListController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02284AE32389E4560000D04D /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		02284AE52389F34D0000D04D /* GroceryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
 		024F9FD4238783CA002AF4BC /* Editing-Table-Views-Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Editing-Table-Views-Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		024F9FD7238783CA002AF4BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		024F9FD9238783CA002AF4BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 			children = (
 				024F9FD7238783CA002AF4BC /* AppDelegate.swift */,
 				024F9FD9238783CA002AF4BC /* SceneDelegate.swift */,
+				02284AE52389F34D0000D04D /* GroceryItem.swift */,
 				024F9FDB238783CA002AF4BC /* GroceryListController.swift */,
+				02284AE32389E4560000D04D /* AddItemViewController.swift */,
 				024F9FDD238783CA002AF4BC /* Main.storyboard */,
 				024F9FE0238783CF002AF4BC /* Assets.xcassets */,
 				024F9FE2238783CF002AF4BC /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				024F9FDC238783CA002AF4BC /* GroceryListController.swift in Sources */,
+				02284AE42389E4560000D04D /* AddItemViewController.swift in Sources */,
 				024F9FD8238783CA002AF4BC /* AppDelegate.swift in Sources */,
+				02284AE62389F34D0000D04D /* GroceryItem.swift in Sources */,
 				024F9FDA238783CA002AF4BC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
